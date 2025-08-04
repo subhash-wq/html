@@ -1,0 +1,20 @@
+.flexbox-container{
+    border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    height:450px;
+    align-items: end;
+    align-content: center;
+
+}
+.box{
+    border: 1px solid whitesmoke;
+    width: 100px;
+    height: 100px;
+    background: red;
+
+}

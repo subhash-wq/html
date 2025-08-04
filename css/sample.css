@@ -1,0 +1,67 @@
+h1{
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+nav {
+
+    background-color: #333;
+    border: 1px solid green;
+    color: white;
+    margin: 10px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+   
+}
+nav ul li {
+   
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li:hover{
+   
+    color: red;
+    background-color: yellowgreen;
+     cursor: pointer;
+
+}
+main{
+    padding: 10x;
+}
+
+main div img{
+    display: block;
+    margin: auto;
+}
+main div p{
+
+    text-align: center;
+    margin: 20px auto;
+}
+ 
+main div table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 20px auto;
+    padding: 10px;
+   
+
+}
+#table-head{
+    background-color: burlywood;
+}
+footer{
+    background-color: #111;
+    margin: 10px;
+      
+}
+footer h4{
+    color: aliceblue;
+  padding: 20px;
+     text-align: center;
+
+}

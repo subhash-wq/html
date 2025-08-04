@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        form {
+            width: 300px;
+            margin: auto;
+
+
+        }
+
+        h1 {
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center; color: blue;">Registration Form</h1>
+    <a href="https://www.w3schools.com/" target="_blank"><img src="smiley.gif" alt="this is a image"></a>
+    <form action="index.html" method="get">
+        <label for="firstname">FirstName:</label>
+        <input type="text" id="firstname" name="firstname" value="subhash" maxlength="25" />
+        <br><br>
+        <label for="lastname">LastName:</label>
+        <input type="text" id="lastname" name="lastname" maxlength="25" />
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="enter a email" />
+        <br><br>
+        <label for="number">Number :</label>
+        <input type="number" id="number" name="number" placeholder="enter a number" />
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="enter a password" />
+        <br><br>
+
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search" />
+        <br><br>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" placeholder="Enter your address">
+
+        </textarea>
+        <br><br>
+        <label for="gender">Gender </label><br><br>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="female">Male</label><br><br>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="male">Female</label><br><br>
+        <input type="radio" id="others" name="gender" value="others" />
+        <label for="others">Others</label><br><br>
+
+        <label>Hobbies:</label><br><br>
+        <input type="checkbox" id="sports" name="hobby" value="sports" />
+        <label for="sports">Sports</label><br><br>
+        <input type="checkbox" id="cricket" name="hobby" value="cricket" />
+        <label for="cricket">cricket</label>
+        <br><br>
+
+        <input type="checkbox" id="music" name="hobby" value="music" />
+        <label for="music">Music</label><br><br>
+
+        <input type="checkbox" id="reading" name="hobby" value="reading" />
+        <label for="reading">Reading</label><br><br>
+
+        <label for="country">Select your country:</label><br><br>
+        <select id="country" name="country">
+            <option value="">--Choose--</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+            <br><br>
+        </select>
+        <select id="color" name="color">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+            <option value="pink">Pink</option>
+            <option value="violet">Violet</option>
+        </select>
+
+        <input type="submit" id="submit" name="submit" />
+        <input type="reset" id="reset" name="reset" />
+        <br><br>
+
+    </form>
+</body>
+
+</html>

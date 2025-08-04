@@ -1,0 +1,24 @@
+ .intro {
+     color: rgb(155, 24, 105);
+ }
+
+ .sample {
+     background-color: chartreuse;
+     border: 1px solid red;
+
+ }
+
+ a[href] {
+     background-color: black;
+
+ }
+
+ :first-letter {
+
+     font-size: large;
+
+ }
+
+ ::first-line {
+     color: rgb(255, 0, 179)
+ }
